@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        body{background-color: cyan;}
+        .raj {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 15px;
+            padding: 20px;
+            width: 320px;
+            border-radius: 30px;
+          }
+    .note{
+        font-size: 55px;
+        color: black;
+    }
+    label{
+        width: 75px;
+        display: inline-block;
+    }
+    #max{
+        width: 325px;
+        height: 34px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    #rt{
+        width: 325px;
+        border-radius: 20px;
+    }
+
+    </style>
+
+   
+</head>
+<body>
+   
+    <div class="raj">
+    <form action="/action_page.php">
+        <center> <h1><span class="note">SIGN</SPan>-UP</h1></center>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="mobile no">mobile no</label>
+        <input type="number" name="mobile no" id="mobile no"><br><br>
+        <label for="DOB">DOB</label>
+        <input type="date" name="DOB" id="DOB"><br><br>
+        <label for="e-mail">e-mail</label>
+        <input type="email" name="email" id="e-mail"><br><br>
+        <label for="password" >password</label>
+        <input type="password" name="password" id="password">
+        <h5>select your gender</h5>
+        <input type="radio" id="male" name="gender">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="others">
+        <label for="others">others</label><br><br>
+      
+        <input type="button" value="Submit" style="background-color: blue;" id="max">
+        <input type="reset" value="reset" style="background-color: rgb(136, 255, 0);" id="rt">
+       
+
+    </form>
+</div>
+</body>
+</html>
