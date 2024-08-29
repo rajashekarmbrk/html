@@ -1,0 +1,35 @@
+h2 {
+    color: #ffffff;
+    font-size: 25px;
+}
+.raj{
+    background-color: rgba(52, 41, 206, 0.726);
+    color: rgb(26, 14, 14);
+    border: 5px solid black;
+    margin: 30px;
+    padding: 40px;
+    width: 200px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+label{
+    width: 1000px;
+    display: inline-block;
+}
+#sub{
+    background-color: rgb(3, 236, 3);
+    border-radius: 20px;
+}
+#reset{
+    background-color: rgb(240, 124, 15);
+    border-radius: 20px;
+    width: 75px;
+}
+.note{
+    font-size: 30px;
+    color: black;
+}
